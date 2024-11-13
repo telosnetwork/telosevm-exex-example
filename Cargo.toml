@@ -1,0 +1,22 @@
+[package]
+name = "telosevm-exex-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+tracing = "0.1.40"
+futures = "0.3.31"
+eyre = "0.6.5"
+
+reth = { git = "https://github.com/telosnetwork/telos-reth", tag = "telos-v1.0.0-rc1" }
+reth-db = { git = "https://github.com/telosnetwork/telos-reth", tag = "telos-v1.0.0-rc1" }
+reth-exex = { git = "https://github.com/telosnetwork/telos-reth", tag = "telos-v1.0.0-rc1" }
+reth-tracing = { git = "https://github.com/telosnetwork/telos-reth", tag = "telos-v1.0.0-rc1" }
+reth-node-api = { git = "https://github.com/telosnetwork/telos-reth", tag = "telos-v1.0.0-rc1" }
+reth-cli-util = { git = "https://github.com/telosnetwork/telos-reth", tag = "telos-v1.0.0-rc1" }
+reth-node-builder = { git = "https://github.com/telosnetwork/telos-reth", tag = "telos-v1.0.0-rc1" }
+reth-node-telos = { git = "https://github.com/telosnetwork/telos-reth", tag = "telos-v1.0.0-rc1", features = ["telos"] }
+reth-telos-rpc = { git = "https://github.com/telosnetwork/telos-reth", tag = "telos-v1.0.0-rc1" }
+reth-provider = { git = "https://github.com/telosnetwork/telos-reth", tag = "telos-v1.0.0-rc1" }
+
